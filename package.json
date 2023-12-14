@@ -1,0 +1,26 @@
+{
+	"name": "@inlang/paraglide-js-adapter-next-example-app",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"_dev": "paraglide-js compile --project ./project.inlang --watch & next dev",
+		"build": "paraglide-js compile --project ./project.inlang && next build",
+		"preview": "next start"
+	},
+	"dependencies": {
+		"@formatjs/intl-localematcher": "^0.5.2",
+		"@inlang/paraglide-js": "1.0.0-prerelease.18",
+		"negotiator": "^0.6.3",
+		"next": "13.5.4",
+		"next-i18n-router": "^5.0.2",
+		"next-intl": "^3.3.2",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/node": "^20.10.4",
+		"@types/react": "^18.2.45",
+		"@types/react-dom": "^18.2.17",
+		"typescript": "^5.3.3"
+	}
+}
